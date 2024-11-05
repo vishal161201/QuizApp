@@ -7,7 +7,7 @@ public class Question {
     private List<String> options;
     private int answerIndex;
 
-    public Question() {} // Default constructor needed for Jackson
+    public Question() {} 
 
     public Question(String question, List<String> options, int answerIndex) {
         this.question = question;
