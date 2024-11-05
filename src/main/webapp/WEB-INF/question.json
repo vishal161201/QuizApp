@@ -1,0 +1,82 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "options": ["Berlin", "Madrid", "Paris", "Lisbon"],
+        "answerIndex": 2
+    },
+    {
+        "question": "Which planet is known as the Red Planet?",
+        "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+        "answerIndex": 1
+    },
+    {
+        "question": "What is the largest ocean on Earth?",
+        "options": ["Atlantic Ocean", "Indian Ocean", "Arctic Ocean", "Pacific Ocean"],
+        "answerIndex": 3
+    },
+    {
+        "question": "Which element has the chemical symbol 'O'?",
+        "options": ["Oxygen", "Gold", "Silver", "Iron"],
+        "answerIndex": 0
+    },
+    {
+        "question": "What is the smallest prime number?",
+        "options": ["0", "1", "2", "3"],
+        "answerIndex": 2
+    },
+    {
+        "question": "Which gas do plants absorb from the atmosphere?",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+        "answerIndex": 1
+    },
+    {
+        "question": "What is the main ingredient in guacamole?",
+        "options": ["Tomato", "Onion", "Avocado", "Pepper"],
+        "answerIndex": 2
+    },
+    {
+        "question": "What is the hardest natural substance on Earth?",
+        "options": ["Gold", "Iron", "Diamond", "Quartz"],
+        "answerIndex": 2
+    },
+    {
+        "question": "In which year did the Titanic sink?",
+        "options": ["1905", "1912", "1918", "1923"],
+        "answerIndex": 1
+    },
+    {
+        "question": "Which planet is known as the 'Giant Planet'?",
+        "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+        "answerIndex": 2
+    },
+    {
+        "question": "What is the currency of Japan?",
+        "options": ["Yen", "Won", "Dollar", "Euro"],
+        "answerIndex": 0
+    },
+    {
+        "question": "Which vitamin is primarily obtained from sunlight?",
+        "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+        "answerIndex": 3
+    },
+    {
+        "question": "What is the tallest mountain in the world?",
+        "options": ["K2", "Kangchenjunga", "Mount Everest", "Lhotse"],
+        "answerIndex": 2
+    },
+    {
+        "question": "What is the chemical symbol for gold?",
+        "options": ["Au", "Ag", "Pb", "Fe"],
+        "answerIndex": 0
+    },
+    {
+        "question": "Which continent is known as the Dark Continent?",
+        "options": ["Asia", "Africa", "Australia", "Europe"],
+        "answerIndex": 1
+    },
+    {
+        "question": "Which planet is closest to the Sun?",
+        "options": ["Venus", "Earth", "Mercury", "Mars"],
+        "answerIndex": 2
+    }
+]

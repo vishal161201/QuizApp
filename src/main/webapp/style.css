@@ -1,0 +1,119 @@
+/* General Reset */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #2E2E2E;
+    color: #FFFFFF;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Main Title */
+h1 {
+    font-size: 3em;
+    color: #FFD700; /* Gold color */
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ques {
+    text-align: center;
+}
+
+/* Question Style */
+h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #FFCC00; /* Light Gold */
+    margin-bottom: 20px;
+}
+
+/* Form Styles */
+form {
+    background-color: #3A3A3A;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    margin: 0 auto;
+    width: 60%;
+}
+
+/* Radio Button Styles */
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+input[type="submit"] {
+    background-color: #FFD700;
+    color: #2E2E2E;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #FFC300; /* Darker Gold */
+}
+
+/* No options available message */
+p {
+    font-size: 1.2em;
+    color: #FF0000; /* Red for emphasis */
+}
+
+/* Circular Progress Bar */
+.progress-circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(#FFD700 calc(var(--progress) * 1%), #3A3A3A 0); /* Gold and dark gray */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.progress-circle::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: #2E2E2E; /* Matches background color */
+}
+
+.progress-circle span {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 1.5em;
+    z-index: 1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.5em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    form {
+        width: 90%;
+    }
+}
